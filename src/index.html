@@ -4,11 +4,13 @@
     "title": "главная"
 })
 <body>
-    @@include('html/header.html')
-    <main>
-        <img src="@img/123123.jpg" alt="">
-    </main>
-    @@include('html/footer.html')
+    <div class="wrapper">
+        @@include('html/header.html')
+        <main class="main">
+            content
+        </main>
+        @@include('html/footer.html')
+    </div>
     <script src="js/app.min.js"></script>
 </body>
 <!-- <script src="js/app.min.js"></script> -->
