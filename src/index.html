@@ -5,9 +5,21 @@
 })
 <body>
     <div class="wrapper">
-        @@include('html/header.html')
+        <!-- @@include('html/header.html') -->
         <main class="main">
-            content
+            <div class="main__content">
+                <div class="main__header">
+                    <img src="@img/logo.png" alt="">
+                </div>
+                <div class="main__middle">
+                    Clear, smart, attractive design <br>
+                    for your app, logo, website
+                </div>
+                <div class="main__footer">Read more</div>
+            </div>
+            <div class="main-background bg-image">
+                <img src="@img/main_background.jpg" alt="">
+            </div>
         </main>
         @@include('html/footer.html')
     </div>
